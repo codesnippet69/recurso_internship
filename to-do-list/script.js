@@ -30,7 +30,8 @@ function createTaskItem(taskText) {
 function addTask() {
     const taskText = taskInputElement.value.trim();
     if (!taskText) {
-        return;
+        alert('Please enter a task.');
+        return
     }
 
     const listItem = createTaskItem(taskText);
