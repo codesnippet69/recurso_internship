@@ -1,0 +1,29 @@
+body{
+    background-color: grey;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app{
+width: 400px;
+
+padding: 10px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: white;
+border-radius: 20px;
+}
+.Todotasks{
+    display: flex;
+    justify-content: space-between;
+      align-items: center;
+}
+
+.Button{
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
