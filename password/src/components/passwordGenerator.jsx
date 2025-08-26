@@ -3,7 +3,7 @@ import { useState, useCallback, useEffect } from 'react'
 
 
 
-function App(){
+function PassApp(){
 const [password, setPassword]= useState("")
 const [charAllowed, setChar]= useState(false)
 const [numberAllowed, setNumber]=useState(false)
@@ -87,5 +87,5 @@ return(
 )
 }
 
-export default App
+export default PassApp
 
